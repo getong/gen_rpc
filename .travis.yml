@@ -1,8 +1,9 @@
 sudo: false
 language: erlang
 otp_release:
-  - "19.1"
-  - "19.2"
+  - 21.0.2
+  - 20.3
+  - 19.3
 cache:
   directories:
   - $HOME/otp/19.1
